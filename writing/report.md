@@ -1,9 +1,5 @@
 # Report by Add Team Member Names
 
-## Participation in Races
-
-TODO: Describe the specific decisions you made in your implementation. Also, describe the ethical or aggressive behavior of your robot for each race.
-
 ## Planning for Robot Design for Community Demonstrations
 
 ### Idea
@@ -21,6 +17,10 @@ TODO: Timeline | Tasks -------- | ------ dates | task 1
 ## Robot for Community Demonstrations
 
 TODO: Describe the specific details of your implementation and any design decisions you made in constructing your robot and your programs. Explain how your solution can aid in educational efforts of using robots, specifying the learning objectives of your demonstration and its engagement.
+
+- Learning outcome 1: TODO
+- Learning outcome 2: TODO
+- Learning outcome 3: TODO
 
 ## Challenges and Learning Experiences
 

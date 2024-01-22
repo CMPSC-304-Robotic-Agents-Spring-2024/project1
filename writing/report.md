@@ -12,7 +12,7 @@ TODO: If you need additional components (e.g., sensors), please add them in a li
 
 ### Schedule
 
-TODO: Timeline | Tasks -------- | ------ dates | task 1
+TODO: Timeline 
 
 ## Robot for Community Demonstrations
 

@@ -82,7 +82,7 @@ pygame.mixer.music.play()
 
 During the lab session on Thursday, February 6th, each team will participate in the project walk-through process. Project walkthrough is an informal process where the instructor facilitates the process of reviewing the progress of the project and the written code. The purpose of this walkthrough is to motivate continuous progression on the project, identification of any conceptual issues, and detection of any technical errors. When the walkthrough is finished, the authors of the project are responsible for taking the necessary actions to correct the identified issues.
 
-By this project walkthrough, each team should have identified the application for a community event they plan to develop, and have implemented a significant portion of their intended solution. During the walkthrough, the team members will collaboratively lead the walkthrough process with a TL/instructor, which should last 5-10 minutes for each team. Each team should:
+By this project walkthrough, each team should have mostly finished the implementation of their intended solution. During the walkthrough, the team members will collaboratively lead the walkthrough process with a TL/instructor, which should last 5-10 minutes for each team. Each team should:
 
 - Describe the chosen task.
 - Explain and demonstrate the written code.

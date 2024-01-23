@@ -96,13 +96,13 @@ Each person must peer review implemented work of another team. All teams must su
 
 The grade that a student receives on this assignment will have the following components.
 
-- **GitHub Actions CI Build Status [up to 10%]:**: For project1 repository associated with this assignment students will receive a checkmark grade if their last before-the-deadline build passes.
+- **GitHub Actions CI Build Status [up to 10%]**: For project1 repository associated with this assignment students will receive a checkmark grade if their last before-the-deadline build passes.
 
-- **Peer Review [up to 5%]:**: Each person will receive a part of their grade for peer reviewing another team's project. Peer reviews are not to be done by a whole team but individually. 
+- **Peer Review [up to 5%]**: Each person will receive a part of their grade for peer reviewing another team's project. Peer reviews are not to be done by a whole team but individually. 
 
-- **Mastery of Verbal Explanation during Walkthrough and Demonstration [up to 15%]:**: Since the continuous and timely project development and the ability to communicate technical details of a project is crucial to building successful software and hardware applications, a portion of students' lab grade will be determined based on the quality of the project walkthrough and the project demonstration.
+- **Mastery of Verbal Explanation during Walkthrough and Demonstration [up to 15%]**: Since the continuous and timely project development and the ability to communicate technical details of a project is crucial to building successful software and hardware applications, a portion of students' lab grade will be determined based on the quality of the project walkthrough and the project demonstration.
 
-- **Mastery of Technical Writing [up to 15%]:**: Students will also receive a checkmark grade when the responses to the writing questions presented in the `report.md` reveal a proficiency of both writing skills and technical knowledge. To receive a checkmark grade, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing conceptually and technically accurate answers.
+- **Mastery of Technical Writing [up to 15%]**: Students will also receive a checkmark grade when the responses to the writing questions presented in the `report.md` reveal a proficiency of both writing skills and technical knowledge. To receive a checkmark grade, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing conceptually and technically accurate answers.
 
 - **Mastery of Technical Knowledge and Skills [up to 50%]**: Students will receive a portion of their assignment grade when their project implementation reveals that they have mastered all of the technical knowledge and skills developed during the completion of this project. All programs must be inside `src/` directory. As a part of this grade, the instructor will assess aspects of the project including, but not limited to, the correctness of the program, the completeness and correctness of the software and hardware integration, the use of effective source code comments and Git commit messages.
 

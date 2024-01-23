@@ -2,6 +2,11 @@
 
 ## Planning for Robot Design for Community Demonstrations
 
+## Components Used
+
+- `gopigo` name: TODO
+- any other components: TODO 
+
 ### Idea
 
 TODO: Describe the application you have chosen to develop and provide a motivation for it. Include references (links are okay) to all resources you have used throughout your research for a project idea.

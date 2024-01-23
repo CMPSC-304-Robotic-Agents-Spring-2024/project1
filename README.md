@@ -6,12 +6,12 @@ Activity                   | Deadline
 -------------------------- | --------------------------------
 Project Idea:              | Thursday, January 25th by 9:30am
 Project Walkthrough and Review: | Tuesday, February 6th during lab
-Engagement Materials       | Thursday, February 8th by 9:30am
+Engagement Materials:       | Thursday, February 8th by 9:30am
 Final Submission:          | Tuesday, February 13th by 3pm   
 
 ## Class Community Guidelines
 
-Throughout the completion of this project you must adhere to the [course guidelines](https://github.com/CMPSC-304-Robotic-Agents-Spring-2024/course_information) that we developed as a class. To report any violations of the code of conduct, please submit an [anonymous form](https://forms.gle/tePfnLY12hyN1Xbd6). Students who think that the class should revise some aspect of the guidelines must use the GitHub issue tracker for that repository to suggest, discuss, and implement any required changes.
+Throughout the completion of this project you must adhere to the [course guidelines](https://github.com/CMPSC-304-Robotic-Agents-Spring-2024/course_information). To report any violations of the code of conduct, please submit an [anonymous form](https://forms.gle/krHqgn4ycHMkAjPU8). Students who think that the class should revise some aspect of the guidelines must use the GitHub issue tracker for the [course information](https://github.com/CMPSC-304-Robotic-Agents-Spring-2024/course_information) repository to suggest, discuss, and implement any required changes.
 
 By working on and completing this assignment you agree to use the hardware given to you in a responsible manner. Each team is responsible for the safety and security of the robot while it is in your possession. You are allowed to take the robot used in this project outside of ALIC but you have to return all parts at the completion of this project.
 
@@ -36,22 +36,45 @@ These assignment learning outcomes contribute to the following course learning o
 
   **Note:** When you are done using GoPiGo, turn off the robot first. Then, after the robot has shut down completely, turn off the rechargeable battery pack. If you turn off the battery before the robot, you run the risk of corrupting the microSD card.
 
-- Finally, play around with your robot. Try to operate it via remote control. Then, begin experimenting with programs in Python.
-
 ### Robot Design and Development for Community Demonstrations
 
 Robotics has been identified and used as strong avenue to promote students' problem solving skills, and to introduce programming concepts and computational thinking skills.
 
-Each team will select a task for the robot to complete and then design and implement a `gopigo` robot to complete that task. This project will be showcased during the community events this semester. Since there are no specific requirements or guidelines for this portion of the project, to ensure fairness in the amount of work you dedicate to this project, each team's selected task (what your robot will do) has to be approved by the instructor. In general, each team either needs to propose a unique robot design (e.g., the need to enhance the robot) and a solution for a simple task or a simple design (e.g., minimal need for robot restructuring) with a solution for a more complex task (e.g., involving multiple sensors). You can explore [project ideas at the gopigo](https://gopigo.io/projects/).
+Each team will select a task for the robot to complete and then design and implement a `gopigo` robot to complete that task. This project will be showcased during the community events this semester. Since there are no specific requirements or guidelines for this portion of the project, to ensure fairness in the amount of work you dedicate to this project, each team's selected task (what your robot will do) has to be approved by the instructor. In general, each team either needs to propose a unique robot design (e.g., the need to enhance the robot) and a solution for a simple task OR a simple design (e.g., minimal need for robot restructuring) with a solution for a more complex task (e.g., involving multiple sensors). You can explore [project ideas at the gopigo](https://gopigo.io/projects/).
 
-Additionally, since this part of the project will be used as an educational resource to get our local community (think, families with children) excited about computing, each team needs to develop concrete motivation for the educational purposes of your robotic design and development. Article on [Educational Robotics and Robot Creativity: An Interdisciplinary Dialogue](https://www.frontiersin.org/articles/10.3389/frobt.2021.662030/full) will give you some background into robotics used for education. Specifically, your project should have:
+Additionally, since this part of the project will be used as an educational resource to get our local community (think, families with K-6 students) excited about computing, each team needs to develop concrete motivation for the educational purposes of your robotic design and development. Article on [Educational Robotics and Robot Creativity: An Interdisciplinary Dialogue](https://www.frontiersin.org/articles/10.3389/frobt.2021.662030/full) will give you some background into robotics used for education. Specifically, your project should have the following  components related to community engagement:
 
-- Three learning objectives for the proposed demonstration that are connected to computational thinking and/or problem solving.
+- Three learning objectives for the proposed demonstration that are connected to computational thinking and/or problem solving. You must include at least one reference to motivate your chosen learning outcomes (research article, similar existing initiative, etc.).
 - A hands-on component, which will either allow participants to experiment with the robot or observe varying performance of the robot under various scenarios.
+- A sign/flyer for your project to be displayed at your station during community event.
+- Supplemental engagement materials, as needed. 
 
-You are required to submit your idea proposal by the due date in an appropriate subsection of the `report.md`'s "Planning for Robot Design for Community Demonstrations" section. Your team also needs to identify a timeline for completing this portion of the lab and include it in the table in the report. If you are in need of additional supplies that you could not find in ALIC, you need to include the list of supplies in the appropriate subsection of the report as well.
+You are required to submit your idea proposal by the due date in an appropriate subsection of the `report.md`'s "Planning for Robot Design for Community Demonstrations" section. Your team also needs to identify a timeline for completing this portion of the lab and include it in the table in the report. If you are in need of additional supplies that you could not find in ALIC, you need to include the list of supplies in the appropriate subsection of the report as well. Instructor will review proposed project ideas and notify you of approval or alternate suggestions within 24 hours.
 
-Instructor will review proposed project ideas and notify you of approval or alternate suggestions within 24 hours.
+### Summary of Baseline Deliverab;es
+
+- Python program(s) implementing application using `gopigo` robot. GitHub flow must be followed, which includes working in branches, creating Pull Requests, and merging completed and approved work.
+- Completed `report.md`.
+- A flyer to display at your engagement station.
+- Supplemental engagement materials.
+- Peer review of at least one other project.
+- Participation in the walkthrough.
+
+### Resources
+
+- [EasyGoPiGo3 Documentation](https://gopigo3.readthedocs.io/en/master/api-basic/easygopigo3.html#)
+- [Sample `gopigo` programs](https://github.com/DexterInd/GoPiGo_Python_Examples/blob/master/Sample_Programs_GoPiGo3)
+- [`pygame.mixer` library](https://www.pygame.org/docs/ref/mixer.html)
+
+  Sample code for using the speaker:
+```
+import pygame
+
+# Play music
+pygame.mixer.init()    
+pygame.mixer.music.load("music.mp3")
+pygame.mixer.music.play()
+```
 
 ## Project Walkthrough and Review
 
@@ -67,7 +90,7 @@ By this project walkthrough, each team should have identified the application fo
 
 ### Peer Review
 
-Each person must peer review implemented work of another team. You will receive peer review assignments before the lab session on February 6th. You must follow GitHub Flow practices to conduct a review, which consists of writing and submitting an appropriate GitHub issue to the reviewed team's repository.
+Each person must peer review implemented work of another team. All teams must submit a Pull Request with their completed work up to this point before February 6th. You will receive peer review assignments before the lab session on February 6th. You must follow GitHub Flow practices to conduct a review, which includes a written review.
 
 ## Assignment Assessment
 
@@ -75,7 +98,7 @@ The grade that a student receives on this assignment will have the following com
 
 - **GitHub Actions CI Build Status [up to 10%]:**: For project1 repository associated with this assignment students will receive a checkmark grade if their last before-the-deadline build passes.
 
-- **Peer Review [up to 5%]:**: .
+- **Peer Review [up to 5%]:**: Each person will receive a part of their grade for peer reviewing another team's project. Peer reviews are not to be done by a whole team but individually. 
 
 - **Mastery of Verbal Explanation during Walkthrough and Demonstration [up to 15%]:**: Since the continuous and timely project development and the ability to communicate technical details of a project is crucial to building successful software and hardware applications, a portion of students' lab grade will be determined based on the quality of the project walkthrough and the project demonstration.
 

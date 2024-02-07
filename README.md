@@ -51,7 +51,7 @@ Additionally, since this part of the project will be used as an educational reso
 
 You are required to submit your idea proposal by the due date in an appropriate subsection of the `report.md`'s "Planning for Robot Design for Community Demonstrations" section. Your team also needs to identify a timeline for completing this portion of the lab and include it in the table in the report. If you are in need of additional supplies that you could not find in ALIC, you need to include the list of supplies in the appropriate subsection of the report as well. Instructor will review proposed project ideas and notify you of approval or alternate suggestions within 24 hours.
 
-### Summary of Baseline Deliverab;es
+### Summary of Baseline Deliverables
 
 - Python program(s) implementing application using `gopigo` robot. GitHub flow must be followed, which includes working in branches, creating Pull Requests, and merging completed and approved work.
 - Completed `report.md`.
